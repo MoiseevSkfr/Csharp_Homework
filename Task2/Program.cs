@@ -9,4 +9,5 @@ int a = int.Parse(Console.ReadLine());
 int b = int.Parse(Console.ReadLine());
 int max = a > b ? max = a : max = b;
 
+Console.WriteLine("Число большее из двух");
 Console.WriteLine(max);

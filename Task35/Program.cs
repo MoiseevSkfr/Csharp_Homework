@@ -24,7 +24,7 @@ void FindAmountElements(int[]arr)
     int count = 0;
     foreach(int el in arr)
     {
-        if(el > 10 && el < 99)
+        if(el >= 10 && el <= 99)
         {
             count += 1;
         }
